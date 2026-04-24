@@ -8,7 +8,6 @@ To run this tool, open an elevated PowerShell window (right-click, "Run as admin
 # validate path and create a temporary folder 
 if (!(test-path c:\ODC)){md C:\ODC}
 cd c:\msftODC\
-
 # main commands
 wget https://aka.ms/intunexml -outfile Intune.xml
 wget https://aka.ms/intuneps1 -outfile IntuneODCStandAlone.ps1
